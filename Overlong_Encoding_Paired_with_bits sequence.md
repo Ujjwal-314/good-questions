@@ -20,6 +20,7 @@ I created my own table to understand this,
 | \ 2-byte-encoding       | 1100 0001  1101 1100            | C1 DC           | again changing bits sequence                                 |
 |                         |                                 |                 |                                                              |
 | \ 3-byte-encoding       | 1110 0000  1000 0001  1001 1100 | E0 81 9C        | overlong-encoding of \ with 3 byte                           |
+
 We can further change the first 2 bits sequence, but it will become very large, In PayloadAllTheThing's page, we had C0 80 5C, but ours is E0 81 9C, both are not same. Giving them benefit of doubt, they maybe changing the bits sequence, but even the first byte is not matching, which seems wrong at this point, even if they were changing the bits-sequence, they should have changed the first 2 bits of 2nd or 3rd byte, 
 it would then looked like
 
