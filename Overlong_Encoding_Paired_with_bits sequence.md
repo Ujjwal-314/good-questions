@@ -47,3 +47,5 @@ Visually, it is very clear that none of our values are matching with theirs.
 I understand, all of this wasn't necessary, but just to give you visual idea, i did this hardwork.
 
 QUESTION: what is the logic behind PayloadAllTheThings encoding of backslash(`\`), mine didn't matched with his. Or am i wrong somewhere.
+
+I found the encoding of \ same as above PayloadAllTheThings [here](https://security.stackexchange.com/questions/74538/alternative-ways-to-exploit-this-path-traversal)
