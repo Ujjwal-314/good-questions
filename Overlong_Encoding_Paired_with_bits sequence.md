@@ -42,6 +42,7 @@ it would then looked like
 | 1110 0000  **11**00 0001  **01**01 1100 | E0 C1 5C |
 | 1110 0000  **11**00 0001  **00**01 1100 | E0 C1 1C |
 | 1110 0000  **11**00 0001  **11**01 1100 | E0 C1 DC |
+
 Visually, it is very clear that none of our values are matching with theirs.
 I understand, all of this wasn't necessary, but just to give you visual idea, i did this hardwork.
 
